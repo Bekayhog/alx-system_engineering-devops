@@ -1,1 +1,1 @@
- A  script that changes the group owner to school for the file hello
+A script that will play the StarWars IV episode in the terminal.
