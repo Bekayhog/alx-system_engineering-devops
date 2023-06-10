@@ -1,11 +1,2 @@
 #!/bin/bash
-
-# Get the numeric user ID for "vincent"
-uid=$(id -u vincent)
-
-# Get the numeric group ID for "staff"
-gid=$(id -g staff)
-
-# Change the ownership recursively
-chown -R $uid:$gid .
-
+chown-R vincent:staff*
