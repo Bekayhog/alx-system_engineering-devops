@@ -1,4 +1,2 @@
 #!/bin/bash
-cat /etc/paswd
-echo "==============="
-cat /etc/hosts
+cat etc/passwd /etc/hosts
